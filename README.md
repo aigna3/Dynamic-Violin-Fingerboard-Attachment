@@ -6,3 +6,9 @@ Brainstorming ideas for distributing voltage throughout the circuits. A voltage 
 **VMicrocontroller = VBattery * (R2 / (R1+R2)) = 9V * (1/(2+1)) = 9V * (1/3) = 3V** <br>
 These are not the typical voltage levels of each of the two components. According to the datasheets however, the addressable LEDs can handle voltages ranging from 3V to 7V so 6V falls within this range. Likewise, the ESP32 microcontroller can handle voltages between 3V and 3.6V so the voltage divider implementation can work despite the voltages not being quite the desired values.
 
+
+
+
+## 2026-03-10
+Figuring out how to upload MIDI files onto an ESP32 programmer. Our plan is to upload the MIDI files onto the ESP32's file system called LittleFS, and then the files are parsed or serialized and is played via USB MIDI. Libraries considered include `ESP32MidiPlayer` and `Arduino-ESP32FS-plugin`.
+
