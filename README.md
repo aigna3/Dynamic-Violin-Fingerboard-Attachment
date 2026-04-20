@@ -12,12 +12,8 @@ Worked on requirements and verifications needed for success of the project. Ther
 
 | Requirements      | Verification |
 | ----------- | ----------- |
-| Must supply a consistent voltage to the ESP32 microcontroller that is within 3.3V +- 5% and a current of 250mA      | * Connect voltage supply to another subsystem
-* Connect positive lead of multimeter to the microcontroller and the negative lead of the multimeter to ground * Check the multimeter to make sure that the voltage that goes through the microcontroller deviates at most 5% from 3.3V * Increase the voltage supply to the other subsystem and make sure that the voltage that goes through the microcontroller still says within 5% of 3.3V       |
-| Must supply a consistent voltage to the LEDs and LCD display that is within 5V +- 5% and a current of 500mA   | * Connect voltage supply to another subsystem
-* Connect positive lead of multimeter to the LCD display and LEDs and the negative lead of the multimeter to ground
-* Check the multimeter to make sure that the voltage that goes through the the LCD display and LEDs deviates at most 5% from 5V
-* Increase the voltage supply to the other subsystem and make sure that the voltage that goes through the LCD display and LEDs still says within 5% of 5V        |
+| Must supply a consistent voltage to the ESP32 microcontroller that is within 3.3V +- 5% and a current of 250mA      | * Connect voltage supply to another subsystem * Connect positive lead of multimeter to the microcontroller and the negative lead of the multimeter to ground * Check the multimeter to make sure that the voltage that goes through the microcontroller deviates at most 5% from 3.3V * Increase the voltage supply to the other subsystem and make sure that the voltage that goes through the microcontroller still says within 5% of 3.3V       |
+| Must supply a consistent voltage to the LEDs and LCD display that is within 5V +- 5% and a current of 500mA   | * Connect voltage supply to another subsystem * Connect positive lead of multimeter to the LCD display and LEDs and the negative lead of the multimeter to ground * Check the multimeter to make sure that the voltage that goes through the the LCD display and LEDs deviates at most 5% from 5V * Increase the voltage supply to the other subsystem and make sure that the voltage that goes through the LCD display and LEDs still says within 5% of 5V        |
 
 
 
