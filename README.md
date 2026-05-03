@@ -43,6 +43,18 @@ These are not the typical voltage levels of each of the two components. Accordin
 
 
 
+## 2026-02-27
+Discussed the idea of using flexible PCBs to fit on the violin fretboard. The only issue would be fitting it with the fretboard correctly since the frets aren't evenly spaced on a violin.
+
+
+
+## 2026-03-06
+Designing sketches for the enclosure. There would need to be holes for potentiometers, buttons, LED's, the LCD screen, Vin, Switch, Voltage Regulators.
+
+https://kommodo.ai/i/F4vQSMvT54Ix7DsF22dm
+
+
+
 
 ## 2026-03-10
 Figuring out how to upload MIDI files onto an ESP32 programmer. Our plan is to upload the MIDI files onto the ESP32's file system called LittleFS, and then the files are parsed or serialized and is played via USB MIDI. Libraries considered include `ESP32MidiPlayer` and `Arduino-ESP32FS-plugin`.
