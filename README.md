@@ -1,5 +1,7 @@
 # Dynamic-Violin-Fingerboard-Attachment
 
+## Important Note: My original group was not allowed to continue so I had to join another one
+
 ## 2026-02-09
 Discussing ideas in our proposal. I suggested that latency must be a consideration and that it must be consistent to within 7ms of each note. Otherwise, humans will notice those subtle changes and it will throw them off when playing the violin. I also suggested that the weight of the attachment should be less than half the weight of the violin itself which is 500g. Otherwise, it will greatly effect the playing.
 
