@@ -59,3 +59,8 @@ Designing sketches for the enclosure. There would need to be holes for potentiom
 ## 2026-03-10
 Figuring out how to upload MIDI files onto an ESP32 programmer. Our plan is to upload the MIDI files onto the ESP32's file system called LittleFS, and then the files are parsed or serialized and is played via USB MIDI. Libraries considered include `ESP32MidiPlayer` and `Arduino-ESP32FS-plugin`.
 
+
+
+## 2026-03-24
+We abandoned working with the machine shop since they suggested drilling a hole in the violin which would not work for us.
+
