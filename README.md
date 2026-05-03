@@ -43,8 +43,8 @@ These are not the typical voltage levels of each of the two components. Accordin
 
 
 
-## 2026-02-27
-Discussed the idea of using flexible PCBs to fit on the violin fretboard. The only issue would be fitting it with the fretboard correctly since the frets aren't evenly spaced on a violin.
+## 2026-02-26
+Discussed the idea of using flexible PCBs to fit on the violin fretboard. The only issue would be fitting it with the fretboard correctly since the frets aren't evenly spaced on a violin. Our TA also suggested using bluetooth or wireless transfer of files to the ESP32 instead of a USB-C. We have considered it, but we will move forward with the USB-C since it is much easier to implement.
 
 
 
@@ -61,6 +61,15 @@ Figuring out how to upload MIDI files onto an ESP32 programmer. Our plan is to u
 
 
 
-## 2026-03-24
-We abandoned working with the machine shop since they suggested drilling a hole in the violin which would not work for us.
+## 2026-03-26
+We abandoned working with the machine shop since they suggested drilling a hole in the violin which would not work for us. We are instead considering building our own enclosure which would go under the violin.
+
+
+
+
+
+## 2026-03-31
+Developing accuracy code at the moment. I am using Code2Flow which is a website to generate flowcharts using pseudocode. The accuracy code is the bulk of the software in this project. The idea involves calculating the correct notes against the total notes played and figuring out the accuracy percentage.
+
+![Chart](https://extra-violet-k6b4etsybo.edgeone.app/Pseudocode&Flowchart.png)
 
