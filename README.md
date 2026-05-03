@@ -51,7 +51,7 @@ Discussed the idea of using flexible PCBs to fit on the violin fretboard. The on
 ## 2026-03-06
 Designing sketches for the enclosure. There would need to be holes for potentiometers, buttons, LED's, the LCD screen, Vin, Switch, Voltage Regulators.
 
-!(https://kommodo.ai/i/F4vQSMvT54Ix7DsF22dm)
+![](https://kommodo.ai/i/F4vQSMvT54Ix7DsF22dm)
 
 
 
