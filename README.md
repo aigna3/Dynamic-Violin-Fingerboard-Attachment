@@ -92,7 +92,7 @@ We ran into a problem during the soldering process. We realized that the USB-C c
 
 
 ## 2026-04-23
-Tested throughout the week. We ran into multiple issues. These were all documented by all of us when measuring each component with the multimeter.
+Tested throughout the week. We ran into multiple issues. These were all documented by all of us when measuring each component with the multimeter. <br>
 **Power issues:**
 <ul>
 <li>The power bank is outputting over 6.4 volts → the 3.3 voltage regulator is outputting 4.2. As a result, when the microcontroller was probed, the voltage was too high</li>
@@ -100,12 +100,14 @@ Tested throughout the week. We ran into multiple issues. These were all document
 <li>When red to button pin and black to 3.3gnd regulator, Vin got 1.36 and Vout got 0</li>
 <li>It seems that the voltage regulators are acting more like resistors than regulators</li>
 </ul>
+
 **Flexible PCB issues:**
 <ul>
 <li>pwr/gnd pads ripped off (WEAK)</li>
 <li>LED spacing sideways (between strings) was very tight. The inner LEDs aren’t getting the right power, we suspect some amount of bridging
 Couldn’t get ahold of enough capacitors–needed a specific value of *surface mount* and a lot of them</li>
 </ul>
+
 **Misc issues:**
 <ul>
 <li>USB port never got mounted b/c the double row of pads was deemed too difficult to solder and we can do a certain amount wirelessly</li>
