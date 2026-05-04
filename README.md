@@ -37,7 +37,7 @@ Worked on requirements and verifications needed for success of the project. Ther
 
 
 
-## 2026-02-22
+## Week 6: 2026-02-23 - 2026-02-27
 Brainstorming ideas for distributing voltage throughout the circuits. A voltage regulator was suggested and so was a voltage divider. The circuit design for a voltage divider will add some complexity but is more cost-efficient. We wanted to use common enough resistance values where the ratio of the two resistances is 2:1. We intend on using a 9V battery for testing. Given this information, we can calculate the voltages going through the LED and the Microcontroller. Let’s assume R1 is twice the resistance of R2. <br>
 **VLED = VBattery * (R1 / (R1+R2)) = 9V * (2/(2+1)) = 9V * (2/3) = 6V** <br>
 **VMicrocontroller = VBattery * (R2 / (R1+R2)) = 9V * (1/(2+1)) = 9V * (1/3) = 3V** <br>
@@ -45,32 +45,27 @@ These are not the typical voltage levels of each of the two components. Accordin
 
 
 
-## 2026-02-26
-Discussed the idea of using flexible PCBs to fit on the violin fretboard. The only issue would be fitting it with the fretboard correctly since the frets aren't evenly spaced on a violin. Our TA also suggested using bluetooth or wireless transfer of files to the ESP32 instead of a USB-C. We have considered it, but we will move forward with the USB-C since it is much easier to implement.
-
-
-
-## 2026-03-06
-Designing sketches for the enclosure. There would need to be holes for potentiometers, buttons, LED's, the LCD screen, Vin, Switch, Voltage Regulators.
+## Week 7: 2026-03-02 - 2026-03-06
+Discussed the idea of using flexible PCBs to fit on the violin fretboard. The only issue would be fitting it with the fretboard correctly since the frets aren't evenly spaced on a violin. Our TA also suggested using bluetooth or wireless transfer of files to the ESP32 instead of a USB-C. We have considered it, but we will move forward with the USB-C since it is much easier to implement. I also designed sketches for the enclosure. There would need to be holes for potentiometers, buttons, LED's, the LCD screen, Vin, Switch, Voltage Regulators.
 
 ![Sketch](https://annual-gold-gutqnh4c4m.edgeone.app/MachineShop.jpeg)
 
 
 
 
-## 2026-03-10
+## Week 8: 2026-03-09 - 2026-03-13
 Figuring out how to upload MIDI files onto an ESP32 programmer. Our plan is to upload the MIDI files onto the ESP32's file system called LittleFS, and then the files are parsed or serialized and is played via USB MIDI. Libraries considered include `ESP32MidiPlayer` and `Arduino-ESP32FS-plugin`.
 
 
 
-## 2026-03-26
+## Week 9: 2026-03-23 - 2026-03-27
 We abandoned working with the machine shop since they suggested drilling a hole in the violin which would not work for us. We are instead considering building our own enclosure which would go under the violin.
 
 
 
 
 
-## 2026-03-31
+## Week 10: 2026-03-30 - 2026-04-03
 Developing accuracy code at the moment. I am using Code2Flow which is a website to generate flowcharts using pseudocode. The accuracy code is the bulk of the software in this project. The idea involves calculating the correct notes against the total notes played and figuring out the accuracy percentage.
 
 ![Chart](https://extra-violet-k6b4etsybo.edgeone.app/Pseudocode&Flowchart.png)
@@ -80,18 +75,18 @@ There are two variables involved. The number of correct notes and total notes in
 
 
 
-## 2026-04-09
+## Week 11: 2026-04-06 - 2026-04-10
 Developing code to determine which note is correct. Since it is touch-based, it would be difficult to determine whether a user is playing correctly first time so it is time-based. I utilized the millis() function to record the time that the note is loaded onto LEDs and give the user within 2 seconds to play the correct note. If the user finds the correct potentiometer placement for each note within that time interval, then it will be marked as correct. 
 
 
 
 
-## 2026-04-16
+## Week 12: 2026-04-13 - 2026-04-17
 We ran into a problem during the soldering process. We realized that the USB-C connector on the PCB was not designed properly so reconsidered the idea of using wireless file transfer during the TA meeting. Through discussion, we did learn that that we could upload the files from the dev board onto the ESP32 on the PCB instead, avoiding the need for wireless transfer. Finally, there was an issue regarding the arrival of some parts. We had a 5V regulator but we did not have a 3.3V regulator which powered the ESP32 chip. Waiting for the parts prohibited us from beginning testing.
 
 
 
-## 2026-04-23
+## Week 13: 2026-04-20 - 2026-04-24
 Tested throughout the week. We ran into multiple issues. These were all documented by all of us when measuring each component with the multimeter. <br>
 
 **Power issues:**
