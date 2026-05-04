@@ -93,6 +93,7 @@ We ran into a problem during the soldering process. We realized that the USB-C c
 
 ## 2026-04-23
 Tested throughout the week. We ran into multiple issues. These were all documented by all of us when measuring each component with the multimeter. <br>
+
 **Power issues:**
 <ul>
 <li>The power bank is outputting over 6.4 volts → the 3.3 voltage regulator is outputting 4.2. As a result, when the microcontroller was probed, the voltage was too high</li>
