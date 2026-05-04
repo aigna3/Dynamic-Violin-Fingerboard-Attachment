@@ -93,22 +93,23 @@ We ran into a problem during the soldering process. We realized that the USB-C c
 
 ## 2026-04-23
 Tested throughout the week. We ran into multiple issues. These were all documented by all of us when measuring each component with the multimeter.
-Power issues:
-(Individual test) The power bank is outputting over 6.4 volts → the 3.3 voltage regulator is outputting 4.2 as a result
-Q: Why are we using a power supply that’s too high? 
-A: To meet the current demand
-When the microcontroller was probed, the voltage was too high
-(Individual test) The 5 volt voltage regulator is getting 6.4 in, 0 out, we don’t know why
-When red to button pin and black to 3.3gnd regulator, Vin got 1.36 and Vout got 0.
-It seems that the voltage regulators are acting more like resistors than regulators
-Flexible PCB issues:
-pwr/gnd pads ripped off (WEAK)
-LED spacing sideways (between strings) was very tight. The inner LEDs aren’t getting the right power, we suspect some amount of bridging
-Couldn’t get ahold of enough capacitors–needed a specific value of *surface mount* and a lot of them
-Q: Why didn’t you try harder to get more
-A: They’re just for coupling, we had bigger problems
-Misc issues:
-USB port never got mounted b/c the double row of pads was deemed too difficult to solder and we can do a certain amount wirelessly
-No zener diodes → decided it was simpler to piggyback off the dev board (they were just for diagnostics)
+**Power issues:**
+<ul>
+<li>The power bank is outputting over 6.4 volts → the 3.3 voltage regulator is outputting 4.2. As a result, when the microcontroller was probed, the voltage was too high</li>
+<li>The 5 volt voltage regulator is getting 6.4 in, 0 out</li>
+<li>When red to button pin and black to 3.3gnd regulator, Vin got 1.36 and Vout got 0</li>
+<li>It seems that the voltage regulators are acting more like resistors than regulators</li>
+</ul>
+**Flexible PCB issues:**
+<ul>
+<li>pwr/gnd pads ripped off (WEAK)</li>
+<li>LED spacing sideways (between strings) was very tight. The inner LEDs aren’t getting the right power, we suspect some amount of bridging
+Couldn’t get ahold of enough capacitors–needed a specific value of *surface mount* and a lot of them</li>
+</ul>
+**Misc issues:**
+<ul>
+<li>USB port never got mounted b/c the double row of pads was deemed too difficult to solder and we can do a certain amount wirelessly</li>
+<li>No zener diodes → decided it was simpler to piggyback off the dev board (they were just for diagnostics)</li>
+</ul>
 
 
