@@ -75,3 +75,5 @@ Developing accuracy code at the moment. I am using Code2Flow which is a website 
 
 ![Chart](https://extra-violet-k6b4etsybo.edgeone.app/Pseudocode&Flowchart.png)
 
+There are two variables involved. The number of correct notes and total notes in the piece. Only total notes gets incremented, if the player plays a note incorrectly. Both variables get incremented if the player plays correctly. At the end accuracy percentage is calculated by dividing the correct notes by total notes and multiplying by 100.
+
