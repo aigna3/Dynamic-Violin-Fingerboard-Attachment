@@ -2,12 +2,12 @@
 
 ## Important Note: My original group was not allowed to continue so I had to join another one
 
-## 2026-02-09
+## Week 4: 2026-02-09 - 2026-02-13
 Discussing ideas in our proposal. I suggested that latency must be a consideration and that it must be consistent to within 7ms of each note. Otherwise, humans will notice those subtle changes and it will throw them off when playing the violin. I also suggested that the weight of the attachment should be less than half the weight of the violin itself which is 500g. Otherwise, it will greatly effect the playing.
 
 
 
-## 2026-02-16
+## Week 5: 2026-02-16 - 2026-02-20
 Worked on requirements and verifications needed for success of the project. There are three subsystems: power, input, and output, and each have three requirements.
 
 **Power Subsystem**
