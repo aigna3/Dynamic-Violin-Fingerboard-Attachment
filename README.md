@@ -77,3 +77,38 @@ Developing accuracy code at the moment. I am using Code2Flow which is a website 
 
 There are two variables involved. The number of correct notes and total notes in the piece. Only total notes gets incremented, if the player plays a note incorrectly. Both variables get incremented if the player plays correctly. At the end accuracy percentage is calculated by dividing the correct notes by total notes and multiplying by 100.
 
+
+
+
+## 2026-04-09
+Developing code to determine which note is correct. Since it is touch-based, it would be difficult to determine whether a user is playing correctly first time so it is time-based. I utilized the millis() function to record the time that the note is loaded onto LEDs and give the user within 2 seconds to play the correct note. If the user finds the correct potentiometer placement for each note within that time interval, then it will be marked as correct. 
+
+
+
+
+## 2026-04-16
+We ran into a problem during the soldering process. We realized that the USB-C connector on the PCB was not designed properly so reconsidered the idea of using wireless file transfer during the TA meeting. Through discussion, we did learn that that we could upload the files from the dev board onto the ESP32 on the PCB instead, avoiding the need for wireless transfer. Finally, there was an issue regarding the arrival of some parts. We had a 5V regulator but we did not have a 3.3V regulator which powered the ESP32 chip. Waiting for the parts prohibited us from beginning testing.
+
+
+
+## 2026-04-23
+Tested throughout the week. We ran into multiple issues. These were all documented by all of us when measuring each component with the multimeter.
+Power issues:
+(Individual test) The power bank is outputting over 6.4 volts → the 3.3 voltage regulator is outputting 4.2 as a result
+Q: Why are we using a power supply that’s too high? 
+A: To meet the current demand
+When the microcontroller was probed, the voltage was too high
+(Individual test) The 5 volt voltage regulator is getting 6.4 in, 0 out, we don’t know why
+When red to button pin and black to 3.3gnd regulator, Vin got 1.36 and Vout got 0.
+It seems that the voltage regulators are acting more like resistors than regulators
+Flexible PCB issues:
+pwr/gnd pads ripped off (WEAK)
+LED spacing sideways (between strings) was very tight. The inner LEDs aren’t getting the right power, we suspect some amount of bridging
+Couldn’t get ahold of enough capacitors–needed a specific value of *surface mount* and a lot of them
+Q: Why didn’t you try harder to get more
+A: They’re just for coupling, we had bigger problems
+Misc issues:
+USB port never got mounted b/c the double row of pads was deemed too difficult to solder and we can do a certain amount wirelessly
+No zener diodes → decided it was simpler to piggyback off the dev board (they were just for diagnostics)
+
+
