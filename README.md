@@ -50,6 +50,9 @@ Discussed the idea of using flexible PCBs to fit on the violin fretboard. The on
 
 ![Sketch](https://www.backgroundremover.com/i/88c49a9d)
 
+<img width="4284" height="5712" alt="MachineShop" src="https://github.com/user-attachments/assets/f7a81f1a-0636-4ffc-8310-73a4941802fe" />
+
+
 
 
 
