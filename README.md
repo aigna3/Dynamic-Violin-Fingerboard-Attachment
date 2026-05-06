@@ -48,8 +48,6 @@ These are not the typical voltage levels of each of the two components. Accordin
 ## Week 7: 2026-03-02 - 2026-03-06
 Discussed the idea of using flexible PCBs to fit on the violin fretboard. The only issue would be fitting it with the fretboard correctly since the frets aren't evenly spaced on a violin. Our TA also suggested using bluetooth or wireless transfer of files to the ESP32 instead of a USB-C. We have considered it, but we will move forward with the USB-C since it is much easier to implement. I also designed sketches for the enclosure. There would need to be holes for potentiometers, buttons, LED's, the LCD screen, Vin, Switch, Voltage Regulators.
 
-![Sketch](https://www.backgroundremover.com/i/88c49a9d)
-
 <img width="4284" height="5712" alt="MachineShop" src="https://github.com/user-attachments/assets/f7a81f1a-0636-4ffc-8310-73a4941802fe" />
 
 
