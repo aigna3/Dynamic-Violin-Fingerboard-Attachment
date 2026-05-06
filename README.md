@@ -76,7 +76,7 @@ There are two variables involved. The number of correct notes and total notes in
 
 
 ## Week 11: 2026-04-06 - 2026-04-10
-Developing code to determine which note is correct. Since it is touch-based, it would be difficult to determine whether a user is playing correctly first time so it is time-based. I utilized the millis() function to record the time that the note is loaded onto LEDs and give the user within 2 seconds to play the correct note. If the user finds the correct potentiometer placement for each note within that time interval, then it will be marked as correct. I am also looking at optical recognition software applications on GitHub we could possibly use to convert sheet music into MIDI or binary files. This is a reach goal, so it can possibly be attempted once the required goals have been met.
+Developing code to determine which note is correct. Since it is touch-based, it would be difficult to determine whether a user is playing correctly first time so it is time-based. I utilized the millis() function to record the time that the note is loaded onto LEDs and give the user within 2 seconds to play the correct note. If the user finds the correct potentiometer placement for each note within that time interval, then it will be marked as correct. I am also looking at optical recognition software applications on GitHub we could possibly use to convert sheet music into MIDI or binary files. This is a reach goal, so it can possibly be attempted once the required goals have been me.
 
 
 
